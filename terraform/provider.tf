@@ -5,6 +5,11 @@ terraform {
       version = "~> 6.0"
     }
   }
+ backend "s3" {
+	bucket = "connor-omar-lab13"
+	key = "~/.ssh/aws"
+	region = "us-west-2"
+   }
 }
 
 provider "aws" {
