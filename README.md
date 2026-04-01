@@ -1,4 +1,5 @@
 # terraform-s3-backend-lab
+Members: Omar, Kevin, Connor
 
 Q: When is the state file created?
 A: Local created on terraform init. Once applied creates one on the S3 bucket after confirming with 'yes'.
