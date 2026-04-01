@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket        = "connor-omar-lab13"
-    key           = "~/.ssh/aws"
+    key           = "terraform.tfstate"
     region        = "us-west-2"
     encrypt       = true
     use_lockfile  = true
